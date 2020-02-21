@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Three.js Boilerplate</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 640px; height: 360px }
+			#info {
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: left;
+				z-index: 100;
+				display:block;
+				margin-left: 10px;
+				width: max-content;
+				padding: 10px;
+				font-family: monospace;
+				background-color: white;
+				color: rgb(46, 46, 46);
+				
+			}
+			img{
+				width: 100px;
+			}
+			span{
+				color: rgb(46, 46, 46);
+				display: block;
+				font-size: 10px;
+				line-height: 12px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+		<script src="./assets/DragControls.js"></script>
+		<script type="module" src="./scripts.js"></script>
+		<div id="info">
+			<img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Stena_line_logo.svg">
+		</div>
+	</body>
+</html>
